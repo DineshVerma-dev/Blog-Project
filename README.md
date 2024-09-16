@@ -2,3 +2,11 @@
 Creating the full stack project for second year 
 
 Commit properly while pushing the code (it will be verified by the admin)
+
+# Client
+
+To Run the Application install dependencies, run:
+
+```bash
+npm install 
+npm run dev
