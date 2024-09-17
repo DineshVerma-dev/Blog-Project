@@ -2,7 +2,7 @@ import React from 'react'
 
 function Logout() {
   return (
-    <div>Logout</div>
+    <div className='bg-blue-400'>Logout</div>
   )
 }
 

@@ -18,6 +18,9 @@ import CreatePosts from './Pages/CreatePosts'
 import CategoryPosts from './Pages/CategoryPosts'
 import Authors from './Pages/Authors'
 import AuthorPosts from './Pages/AuthorPosts'
+import Blog from './Pages/Blog'
+import Article from './Pages/Article'
+import Wiki from './Pages/Wiki'
 
 
 const router = createBrowserRouter([
@@ -39,6 +42,9 @@ const router = createBrowserRouter([
       {path: "post/categories/:category" , element: <CategoryPosts/>},
       {path: "authors" , element: <Authors/>},
       {path: "posts/users/:id" , element: <AuthorPosts/>},
+      {path: "blogs" , element: <Blog/>},
+      {path: "articles" , element: <Article/>},
+      {path: "wikis" , element: <Wiki/>},
     ]
   }
 ])
@@ -46,5 +52,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
+   
+  </StrictMode>
 )
