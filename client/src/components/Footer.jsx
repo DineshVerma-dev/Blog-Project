@@ -2,13 +2,13 @@ import React from 'react'
 import {Link , NavLink}  from 'react-router-dom'
 export default function Footer() {
   return (
-      <footer className="bg-white border-y">
+      <footer className="bg-white border-y border-t-4 border-blue-200">
           <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
               <div className="md:flex md:justify-between">
                   <div className="mb-6 md:mb-0">
                       <Link to="/" className="flex items-center">
                           <img
-                              src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                              src="../src/assets/blog-writing-svgrepo-com.svg"
                               className="mr-3 h-16"
                               alt="Logo"
                           />
@@ -71,7 +71,7 @@ export default function Footer() {
               <div className="sm:flex sm:items-center sm:justify-between">
                   <span className="text-sm text-gray-500 sm:text-center">
                       © 2023
-                      <a href="#" className="hover:underline">
+                      <a href="https://github.com/dineshverma-dev" className="hover:underline">
                           Dev Ninjas
                       </a>
                       . All Rights Reserved.
@@ -122,6 +122,7 @@ export default function Footer() {
                           <span className="sr-only">Twitter page</span>
                       </Link>
                       <Link to="#" className="text-gray-500">
+                       
                           <svg
                               className="w-4 h-4"
                               aria-hidden="true"
@@ -135,7 +136,8 @@ export default function Footer() {
                                   clip-rule="evenodd"
                               />
                           </svg>
-                          <span className="sr-only">GitHub account</span>
+                           <span className="sr-only">GitHub account</span>
+                         
                       </Link>
                       <Link to="#" className="text-gray-500">
                           <svg
