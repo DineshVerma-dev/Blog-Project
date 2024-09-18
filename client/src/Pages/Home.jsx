@@ -64,10 +64,15 @@ export default function Home() {
               >
                 Get started
               </a> */}
-
-              <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+               <Link
+               to="team"
+               className='text-sm font-semibold leading-6 text-gray-900'
+               >
                 Learn more <span aria-hidden="true">→</span>
-              </a>
+               </Link>
+              {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                
+              </a> */}
             </div>
           </div>
         </div>
