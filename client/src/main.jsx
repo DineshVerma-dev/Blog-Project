@@ -21,6 +21,7 @@ import AuthorPosts from './Pages/AuthorPosts'
 import Blog from './Pages/Blog'
 import Article from './Pages/Article'
 import Wiki from './Pages/Wiki'
+import SignUp from "./Pages/SignUp"
 
 
 const router = createBrowserRouter([
@@ -35,6 +36,7 @@ const router = createBrowserRouter([
       {path: "register" , element: <Register/>},
       {path: "logout" , element: <Logout/>},
       {path: "login" , element: <Login/>},
+      {path: "signup/login" , element: <Login/>},
       {path: "posts/:id/edit" , element: <EditPosts/>},
       {path: "delete-post" , element: <DeletePosts/>},
       {path: "myposts/:id" , element: <Dashboard/>},
@@ -45,6 +47,8 @@ const router = createBrowserRouter([
       {path: "blogs" , element: <Blog/>},
       {path: "articles" , element: <Article/>},
       {path: "wikis" , element: <Wiki/>},
+      {path: "signup" , element: <SignUp/>},
+
     ]
   }
 ])
