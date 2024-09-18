@@ -25,9 +25,9 @@ export default function Header() {
               className="text-gray-800 focus:outline-none"
             >
               {isMenuOpen ? (
-                <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                <XMarkIcon className="h-7 w-7" aria-hidden="true" />
               ) : (
-                <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+                <Bars3Icon className="h-7 w-7" aria-hidden="true" />
               )}
             </button>
           </div>
