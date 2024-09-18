@@ -16,7 +16,7 @@ export default function CreatePosts() {
     <div className="bg-white shadow-lg rounded-xl p-4 w-full max-w-9xl sm:px-8 sm:py-10 ">
       <h2 className="text-3xl font-bold mb-6 text-center sm:text-4xl lg:text-5xl">Craft Remarkable Content</h2>
       <Editor
-        apiKey={import.meta.env.VITE_EDITOR_KEY || ezkmz50g0kwq03emoli3bi4gmdnilusikhe1ahk7ybk92olq}  
+        apiKey={import.meta.env.VITE_EDITOR_KEY }  
         init={{
           plugins: [
             'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'image', 'link', 'lists', 'media', 'searchreplace', 'table', 'visualblocks', 'wordcount',
