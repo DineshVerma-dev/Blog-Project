@@ -23,7 +23,7 @@ import Article from './Pages/Article'
 import Wiki from './Pages/Wiki'
 import SignUp from "./Pages/SignUp"
 import Team from "./Pages/Team"
-
+import CreatePosts from './Pages/CreatePosts'
 
 const router = createBrowserRouter([
   {
@@ -49,7 +49,8 @@ const router = createBrowserRouter([
       {path: "articles" , element: <Article/>},
       {path: "wikis" , element: <Wiki/>},
       {path: "signup" , element: <SignUp/>},
-      {path:  "team" , element : <Team/>}
+      {path:  "team" , element : <Team/>},
+      {path:  "createpost" , element : <CreatePosts/>}
 
     ]
   }
