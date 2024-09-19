@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
 
@@ -16,10 +17,19 @@ export default function Home() {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Announcing our next round of funding.{' '}
-              <a href="#" className="font-semibold text-indigo-600">
+              <Link
+              to='team'
+              className="font-semibold text-indigo-600"
+              >
+              <span aria-hidden="true" className="absolute inset-0" />
+              Read more <span aria-hidden="true">&rarr;</span>
+              </Link>
+
+              {/* <a href="#" className="font-semibold text-indigo-600">
                 <span aria-hidden="true" className="absolute inset-0" />
                 Read more <span aria-hidden="true">&rarr;</span>
-              </a>
+              </a> */}
+
             </div>
           </div>
 
@@ -38,19 +48,31 @@ export default function Home() {
 
           <div className="text-center">
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-            "The best advice I ever got was that knowledge is power and to keep reading." – David Bailey
-            Continual reading empowers us with knowledge, reinforcing the idea that learning is a lifelong endeavor that builds strength.
+              "The best advice I ever got was that knowledge is power and to keep reading." – David Bailey
+              Continual reading empowers us with knowledge, reinforcing the idea that learning is a lifelong endeavor that builds strength.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-x-6 gap-y-4 sm:gap-y-0">
-              <a
+            <Link
+               to="signup"
+               className="rounded-md bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+            Get started
+            </Link>
+              {/* <a
                 href="#"
                 className="rounded-md bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Get started
-              </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+              </a> */}
+               <Link
+               to="team"
+               className='text-sm font-semibold leading-6 text-gray-900'
+               >
                 Learn more <span aria-hidden="true">→</span>
-              </a>
+               </Link>
+              {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                
+              </a> */}
             </div>
           </div>
         </div>
