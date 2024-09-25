@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
 import dinesh from "/dinesh.jpeg"
 
-const Founder = () => {
+const Team = () => {
 
   useEffect(() => {
     ScrollReveal().reveal('.dinesh ,.abhishek ,.pranay .sahil', {
@@ -143,4 +143,4 @@ const Founder = () => {
   );
 };
 
-export default Founder;
+export default Team;
