@@ -14,7 +14,7 @@ export default function Home() {
   });
 
   return (
-    <div className="bg-white">
+    <div className=" bg-blue-800" style={{backgroundColor : "#40E0D0"}} >
       <div className="relative isolate px-4 pt-12 sm:px-6 lg:px-8"> {/* Reduced padding for mobile */}
         <div
           aria-hidden="true"
@@ -42,14 +42,14 @@ export default function Home() {
           </div>
 
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-8xl"> {/* Adjusted for different screen sizes */}
-            <span style={{ fontSize: '3rem', fontWeight: 'bold', color : "blueviolet" , fontFamily : "Arial, sans-serif" }} className='text-6xl sm:text-7xl lg:text-9xl'>
+            <span style={{ fontSize: '3rem', fontWeight: 'bold', color: "blueviolet", fontFamily: "Arial, sans-serif" }} className='text-6xl sm:text-7xl lg:text-9xl'>
               {Animation}
 
               <Cursor />
 
             </span> {/* Larger on bigger screens */}
 
-            <div className='text-6xl sm:text-7xl lg:text-9xl'>
+            <div className='text-6xl sm:text-7xl lg:text-9xl '>
               Stories & ideas
             </div>
           </h1>
