@@ -16,6 +16,9 @@ export default function Header() {
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <img src={logo} className="mr-3 h-12" alt="Logo" />
+            <span className="bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent m-2 bg-clip-text text-2xl font-bold font-roboto">
+              Dev Ninjas
+            </span>
           </Link>
 
           {/* Hamburger Icon for mobile */}
@@ -51,8 +54,7 @@ export default function Header() {
                 <NavLink
                   to="/"
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${
-                      isActive ? 'text-purple-700' : 'text-gray-700'
+                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? 'text-purple-700' : 'text-gray-700'
                     } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-purple-700 lg:p-0`
                   }
                 >
@@ -63,8 +65,7 @@ export default function Header() {
                 <NavLink
                   to="blogs"
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${
-                      isActive ? 'text-orange-700' : 'text-gray-700'
+                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? 'text-orange-700' : 'text-gray-700'
                     } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                   }
                 >
@@ -75,8 +76,7 @@ export default function Header() {
                 <NavLink
                   to="articles"
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${
-                      isActive ? 'text-blue-700' : 'text-gray-700'
+                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? 'text-blue-700' : 'text-gray-700'
                     } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-700 lg:p-0`
                   }
                 >
@@ -87,8 +87,7 @@ export default function Header() {
                 <NavLink
                   to="wikis"
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${
-                      isActive ? 'text-green-700' : 'text-gray-700'
+                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? 'text-green-700' : 'text-gray-700'
                     } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-green-700 lg:p-0`
                   }
                 >
@@ -99,8 +98,7 @@ export default function Header() {
                 <NavLink
                   to="createpost"
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${
-                      isActive ? 'text-green-700' : 'text-gray-700'
+                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? 'text-green-700' : 'text-gray-700'
                     } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-green-700 lg:p-0`
                   }
                 >
@@ -155,16 +153,15 @@ export default function Header() {
                 <NavLink
                   to="createpost"
                   className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${
-                      isActive ? 'text-green-700' : 'text-gray-700'
+                    `block py-2 pr-4 pl-3 duration-200 ${isActive ? 'text-green-700' : 'text-gray-700'
                     } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-green-700 lg:p-0`
                   }
                 >
                   Create Post
                 </NavLink>
               </li>
-              
-             
+
+
             </ul>
           </div>
         )}

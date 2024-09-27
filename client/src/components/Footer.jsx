@@ -14,6 +14,9 @@ export default function Footer() {
                                 className="mr-3 h-16"
                                 alt="Logo"
                             />
+                            <span className="bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent m-2 bg-clip-text text-2xl font-bold font-roboto">
+                                Dev Ninjas
+                            </span>
                         </Link>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
