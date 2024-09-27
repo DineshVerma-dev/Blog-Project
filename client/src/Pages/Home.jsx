@@ -14,7 +14,7 @@ export default function Home() {
   });
 
   return (
-    <div className=" bg-blue-800" style={{backgroundColor : "#40E0D0"}} >
+    <div   >
       <div className="relative isolate px-4 pt-12 sm:px-6 lg:px-8"> {/* Reduced padding for mobile */}
         <div
           aria-hidden="true"
