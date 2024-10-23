@@ -126,7 +126,7 @@ const Team = () => {
             </div>
             <div className="lg:w-1/3">
               <img
-                src='https://via.placeholder.com/300' // Replace with your CTO's image
+                src='https://avatars.githubusercontent.com/u/155604978?v=4' // Replace with your CTO's image
                 alt="CTO"
                 className="w-full h-auto rounded-full shadow-lg object-cover"
               />
